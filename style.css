@@ -1,0 +1,116 @@
+h1 {
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: Google Sans, Arial, sans-serif;
+    color: rgb(87, 85, 85);
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: Google Sans, Arial, sans-serif;
+    color: rgb(87, 85, 85);
+}
+
+div{
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 12px;
+    margin-top: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navigation {
+    text-align: right;
+    margin-bottom: 50px;
+    font-family: Arial, sans-serif;
+    color: rgb(87, 85, 85);
+}
+
+.page_title {
+    text-align: center;
+}
+
+.search_container {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.button_container {
+    text-align: center;
+}
+
+.advanced_page_title {
+    text-align: center;
+}
+
+.advanced_main {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 70px;
+}
+
+.advanced_search_field{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+label {
+    width: 132px;
+    padding-right: 12px;
+    margin-top: 11px;
+}
+
+.advanced_search_bar {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-top: calc(20/2)px;
+    position: relative;
+    width: 200px;
+    height: 20px;
+}
+
+.advanced_button_container{
+    margin-top: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.search_bar {
+    border: 1px solid;
+    height: 25px;
+    width: 350px;
+    border-radius: 9999px;
+    padding-left: 10px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+input[value="Advanced search"] {
+    color: white;
+    background-color: rgb(70, 70, 236);
+    border: 0px;
+    border-radius: 24px;
+    padding: 11px 15px;
+}
+
+input[value="Advanced search"]:hover {
+    background-color: rgb(43, 43, 142);
+}
